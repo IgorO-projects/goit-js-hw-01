@@ -2,7 +2,7 @@ let balance = 23580;
 const pricePerDroid = 3000;
 let message;
 
-let quantity = prompt('Сколько дроидов Вам запоковать?');
+const quantity = prompt('Сколько дроидов Вам запоковать?');
 
 if(quantity === null) {
     message = 'Отменено пользователем!';
