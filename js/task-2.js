@@ -6,4 +6,4 @@ const ordered = 50;
 // } else {console.log ('Заказ оформлен, с вами свяжется менеджер')};
 
 const message = total < ordered ? 'На складе недостаточно товаров!' : 'Заказ оформлен, с вами свяжется менеджер';
-console.log(message)
+console.log(message);
